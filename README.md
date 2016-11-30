@@ -1,5 +1,6 @@
-# time_bar_class
+# time_bar_class with VWAP support
 A class for managing real time price ticks into a OHLC bar based on time.  Converts real time ticks into price bars.
+This class can also calculate the current VWAP (volume weighted average price) in real time for each bar as it closes.
 
 This class is designed to be used in conjunction with a main script that receives
 a stream of tick data in real time.  Please read comments thouroughly as there
