@@ -87,5 +87,3 @@ def bar_timer():
 bar_timer_thread = Thread(target=bar_timer)
 bar_timer_thread.start()
 
-
-### END ###
